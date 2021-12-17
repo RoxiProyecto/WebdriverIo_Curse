@@ -42,15 +42,10 @@ y con  el comando allure: generate allure-results/ && allure open  vemos nuestro
         maxInstances: 5,
         browserName: 'chrome',
         'goog:chromeOptions': {
-            args:['--start-maximized'],
-        },
-    
-      }],
+            args:['--start-maximized'], },}],
       
 * 13- Configuramos el  archivo package.json en la parte de script lo siguiente:
-     "scripts": {
-       "test": "wdio ./wdio.conf.js"
-       },
+     "scripts": { "test": "wdio ./wdio.conf.js"},
 
 * 13- Instalar  Regresión visual con el comando: npm install --save-dev wdio-image-comparison-service
 
@@ -91,7 +86,7 @@ Se realizan las siguientes pruebas:
 * Para ejecutar en la consola o terminal
 npm run test
 
-## Ejecutando Reportes ✒️
+## Ejecutando Reportes 📋
 
 * Para ejecutar en la consola o terminal
  allure generate allure-results/ --clean && allure open
