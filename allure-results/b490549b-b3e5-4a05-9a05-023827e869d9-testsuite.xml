@@ -1,0 +1,421 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1639702262502' stop='1639702273905'>
+    <name>My wrong login app</name>
+    <title>My wrong login app</title>
+    <test-cases>
+        <test-case start='1639702262503' status='failed' stop='1639702273715'>
+            <name>should login with invalid credentials, passw</name>
+            <title>should login with invalid credentials, passw</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Login'/>
+                <label name='severity' value='Critical'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1639702262608' status='passed' stop='1639702268811'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='7903d51a-e213-483f-a04b-380fbb492766-attachment.json' type='application/json' size='45'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639702268819' status='passed' stop='1639702268874'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='78499f39-1516-46b3-a8cb-ec200124be79-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='07f6aa39-5389-4070-84a9-2eefa50c3b1c-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639702268886' status='passed' stop='1639702272989'>
+                    <name>POST /session/:sessionId/element/ece0f028-76a5-46f9-b31b-18d4aa5a8d85/click</name>
+                    <title>POST /session/:sessionId/element/ece0f028-76a5-46f9-b31b-18d4aa5a8d85/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1639702272991' status='passed' stop='1639702273017'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='825e4e28-a543-4856-929b-b7e837b77792-attachment.json' type='application/json' size='50'/>
+                        <attachment title='Response' source='09c0fc89-5f9c-4ed0-8850-04c19e17b385-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639702273025' status='passed' stop='1639702273048'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='731b1800-246f-4e7f-bb85-18bced256080-attachment.json' type='application/json' size='51'/>
+                        <attachment title='Response' source='1bb5d482-4ae7-47af-aced-4730f4c16a7e-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639702273052' status='passed' stop='1639702273074'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='1759c52a-9022-491f-8a1a-e0047d741ee2-attachment.json' type='application/json' size='56'/>
+                        <attachment title='Response' source='3bc6484b-db0b-4950-85ed-3cc8a160eba1-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639702273082' status='passed' stop='1639702273112'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='0e321e6c-1c56-4539-9a6a-da77063010af-attachment.json' type='application/json' size='8337'/>
+                        <attachment title='Response' source='65718ad4-f76c-42f0-be07-4bd0208f2b3d-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639702273115' status='passed' stop='1639702273135'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='e252247d-ebff-4fd2-b9c7-3b6cf1748131-attachment.json' type='application/json' size='5649'/>
+                        <attachment title='Response' source='e657ba98-e927-4b8e-a8a2-f164834e8010-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639702273137' status='passed' stop='1639702273192'>
+                    <name>POST /session/:sessionId/element/3a9c9feb-8b95-456e-b37c-37865b3c80da/clear</name>
+                    <title>POST /session/:sessionId/element/3a9c9feb-8b95-456e-b37c-37865b3c80da/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1639702273193' status='passed' stop='1639702273251'>
+                    <name>POST /session/:sessionId/element/3a9c9feb-8b95-456e-b37c-37865b3c80da/click</name>
+                    <title>POST /session/:sessionId/element/3a9c9feb-8b95-456e-b37c-37865b3c80da/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1639702273260' status='passed' stop='1639702273393'>
+                    <name>POST /session/:sessionId/actions</name>
+                    <title>POST /session/:sessionId/actions</title>
+                    <attachments>
+                        <attachment title='Request' source='1532112a-3749-4ac9-bb61-340226d7f76f-attachment.json' type='application/json' size='2985'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639702273395' status='passed' stop='1639702273414'>
+                    <name>DELETE /session/:sessionId/actions</name>
+                    <title>DELETE /session/:sessionId/actions</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1639702273418' status='passed' stop='1639702273462'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='96459dc4-01b1-407c-8f7e-47859503fd6a-attachment.json' type='application/json' size='8337'/>
+                        <attachment title='Response' source='aa29ae9c-1249-49d2-a014-1b3f51eea951-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639702273464' status='passed' stop='1639702273511'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='fcef773d-22c4-462f-b2d8-33c3d8b0b455-attachment.json' type='application/json' size='5649'/>
+                        <attachment title='Response' source='862a5215-72aa-408d-b0b3-710dfc7e3197-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1639702273514' status='passed' stop='1639702273584'>
+                    <name>POST /session/:sessionId/element/01ec3517-68ec-44de-af6b-c1443f95919d/clear</name>
+                    <title>POST /session/:sessionId/element/01ec3517-68ec-44de-af6b-c1443f95919d/clear</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1639702273586' status='failed' stop='1639702273713'>
+                    <name>POST /session/:sessionId/element/01ec3517-68ec-44de-af6b-c1443f95919d/click</name>
+                    <title>POST /session/:sessionId/element/01ec3517-68ec-44de-af6b-c1443f95919d/click</title>
+                    <attachments/>
+                    <steps>
+                        <step start='1639702273647' status='failed' stop='1639702273713'>
+                            <name>POST /session/:sessionId/element/8eb0c603-9b12-43eb-87dd-c7d34fb547ad/click</name>
+                            <title>POST /session/:sessionId/element/8eb0c603-9b12-43eb-87dd-c7d34fb547ad/click</title>
+                            <attachments/>
+                            <steps>
+                                <step start='1639702273660' status='failed' stop='1639702273713'>
+                                    <name>POST /session/:sessionId/element</name>
+                                    <title>POST /session/:sessionId/element</title>
+                                    <attachments>
+                                        <attachment title='Request' source='5dd07b60-1591-4f48-adc2-08f2c6591364-attachment.json' type='application/json' size='56'/>
+                                    </attachments>
+                                    <steps>
+                                        <step start='1639702273679' status='failed' stop='1639702273713'>
+                                            <name>GET /session/:sessionId/screenshot</name>
+                                            <title>GET /session/:sessionId/screenshot</title>
+                                            <attachments/>
+                                            <steps/>
+                                        </step>
+                                    </steps>
+                                </step>
+                            </steps>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected undefined to be true      
+                      actual expected
+                      
+                      undefinedtrue
+                      </message>
+                <stack-trace>AssertionError: expected undefined to be true
+                    at Context.&lt;anonymous> (C:\Users\rcruz\OneDrive\Escritorio\PruebaFinal_CursoWdio\test\specs\/loging.test.js:20:9)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1639702273716' status='broken' stop='1639702273747'>
+            <name>should login with invalid credentials, user email</name>
+            <title>should login with invalid credentials, user email</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Login'/>
+                <label name='severity' value='Critical'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1639702273720' status='broken' stop='1639702273747'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='2681097d-41f6-4cd5-8691-59eea09cbd72-attachment.json' type='application/json' size='45'/>
+                    </attachments>
+                    <steps>
+                        <step start='1639702273735' status='broken' stop='1639702273747'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>connect ECONNREFUSED 127.0.0.1:9515</message>
+                <stack-trace>RequestError: connect ECONNREFUSED 127.0.0.1:9515
+                    at ClientRequest.&lt;anonymous> (C:\Users\rcruz\OneDrive\Escritorio\PruebaFinal_CursoWdio\node_modules\got\dist\source\core\index.js:962:111)
+                    at Object.onceWrapper (events.js:421:26)
+                    at ClientRequest.emit (events.js:326:22)
+                    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+                    at ClientRequest.origin.emit (C:\Users\rcruz\OneDrive\Escritorio\PruebaFinal_CursoWdio\node_modules\@szmarczak\http-timer\dist\source\index.js:43:20)
+                    at Socket.socketErrorListener (_http_client.js:427:9)
+                    at Socket.emit (events.js:314:20)
+                    at Socket.EventEmitter.emit (domain.js:483:12)
+                    at emitErrorNT (internal/streams/destroy.js:92:8)
+                    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+                    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1144:16)
+                    at TCPConnectWrap.callbackTrampoline (internal/async_hooks.js:126:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1639702273748' status='broken' stop='1639702273779'>
+            <name>Restrictions of the login inputs, emial</name>
+            <title>Restrictions of the login inputs, emial</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Login'/>
+                <label name='severity' value='Critical'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1639702273753' status='broken' stop='1639702273779'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='62110ac8-1415-4562-ab9c-e9c930cc86e4-attachment.json' type='application/json' size='45'/>
+                    </attachments>
+                    <steps>
+                        <step start='1639702273768' status='broken' stop='1639702273779'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>connect ECONNREFUSED 127.0.0.1:9515</message>
+                <stack-trace>RequestError: connect ECONNREFUSED 127.0.0.1:9515
+                    at ClientRequest.&lt;anonymous> (C:\Users\rcruz\OneDrive\Escritorio\PruebaFinal_CursoWdio\node_modules\got\dist\source\core\index.js:962:111)
+                    at Object.onceWrapper (events.js:421:26)
+                    at ClientRequest.emit (events.js:326:22)
+                    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+                    at ClientRequest.origin.emit (C:\Users\rcruz\OneDrive\Escritorio\PruebaFinal_CursoWdio\node_modules\@szmarczak\http-timer\dist\source\index.js:43:20)
+                    at Socket.socketErrorListener (_http_client.js:427:9)
+                    at Socket.emit (events.js:314:20)
+                    at Socket.EventEmitter.emit (domain.js:483:12)
+                    at emitErrorNT (internal/streams/destroy.js:92:8)
+                    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+                    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1144:16)
+                    at TCPConnectWrap.callbackTrampoline (internal/async_hooks.js:126:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1639702273781' status='broken' stop='1639702273809'>
+            <name>Restrictions of the login inputs, passw &lt; 5</name>
+            <title>Restrictions of the login inputs, passw &lt; 5</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Login'/>
+                <label name='severity' value='Critical'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1639702273785' status='broken' stop='1639702273808'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='8a45e1e5-94e6-4557-819e-5abf39002af5-attachment.json' type='application/json' size='45'/>
+                    </attachments>
+                    <steps>
+                        <step start='1639702273798' status='broken' stop='1639702273808'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>connect ECONNREFUSED 127.0.0.1:9515</message>
+                <stack-trace>RequestError: connect ECONNREFUSED 127.0.0.1:9515
+                    at ClientRequest.&lt;anonymous> (C:\Users\rcruz\OneDrive\Escritorio\PruebaFinal_CursoWdio\node_modules\got\dist\source\core\index.js:962:111)
+                    at Object.onceWrapper (events.js:421:26)
+                    at ClientRequest.emit (events.js:326:22)
+                    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+                    at ClientRequest.origin.emit (C:\Users\rcruz\OneDrive\Escritorio\PruebaFinal_CursoWdio\node_modules\@szmarczak\http-timer\dist\source\index.js:43:20)
+                    at Socket.socketErrorListener (_http_client.js:427:9)
+                    at Socket.emit (events.js:314:20)
+                    at Socket.EventEmitter.emit (domain.js:483:12)
+                    at emitErrorNT (internal/streams/destroy.js:92:8)
+                    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+                    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1144:16)
+                    at TCPConnectWrap.callbackTrampoline (internal/async_hooks.js:126:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1639702273810' status='broken' stop='1639702273856'>
+            <name>Restrictions of the login inputs, passw empty</name>
+            <title>Restrictions of the login inputs, passw empty</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Login'/>
+                <label name='severity' value='Critical'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1639702273816' status='broken' stop='1639702273856'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='da9560a2-fb45-4bf2-a288-f63b99b30615-attachment.json' type='application/json' size='45'/>
+                    </attachments>
+                    <steps>
+                        <step start='1639702273834' status='broken' stop='1639702273856'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>connect ECONNREFUSED 127.0.0.1:9515</message>
+                <stack-trace>RequestError: connect ECONNREFUSED 127.0.0.1:9515
+                    at ClientRequest.&lt;anonymous> (C:\Users\rcruz\OneDrive\Escritorio\PruebaFinal_CursoWdio\node_modules\got\dist\source\core\index.js:962:111)
+                    at Object.onceWrapper (events.js:421:26)
+                    at ClientRequest.emit (events.js:326:22)
+                    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+                    at ClientRequest.origin.emit (C:\Users\rcruz\OneDrive\Escritorio\PruebaFinal_CursoWdio\node_modules\@szmarczak\http-timer\dist\source\index.js:43:20)
+                    at Socket.socketErrorListener (_http_client.js:427:9)
+                    at Socket.emit (events.js:314:20)
+                    at Socket.EventEmitter.emit (domain.js:483:12)
+                    at emitErrorNT (internal/streams/destroy.js:92:8)
+                    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+                    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1144:16)
+                    at TCPConnectWrap.callbackTrampoline (internal/async_hooks.js:126:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1639702273857' status='broken' stop='1639702273901'>
+            <name>Restrictions of the login inputs, email empty</name>
+            <title>Restrictions of the login inputs, email empty</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+                <label name='feature' value='Login'/>
+                <label name='severity' value='Critical'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-96.0.4664.110'/>
+            </parameters>
+            <steps>
+                <step start='1639702273863' status='broken' stop='1639702273897'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='54aedc8a-a0a2-4d03-82f4-0402f9ade705-attachment.json' type='application/json' size='45'/>
+                    </attachments>
+                    <steps>
+                        <step start='1639702273873' status='broken' stop='1639702273897'>
+                            <name>GET /session/:sessionId/screenshot</name>
+                            <title>GET /session/:sessionId/screenshot</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>connect ECONNREFUSED 127.0.0.1:9515</message>
+                <stack-trace>RequestError: connect ECONNREFUSED 127.0.0.1:9515
+                    at ClientRequest.&lt;anonymous> (C:\Users\rcruz\OneDrive\Escritorio\PruebaFinal_CursoWdio\node_modules\got\dist\source\core\index.js:962:111)
+                    at Object.onceWrapper (events.js:421:26)
+                    at ClientRequest.emit (events.js:326:22)
+                    at ClientRequest.EventEmitter.emit (domain.js:483:12)
+                    at ClientRequest.origin.emit (C:\Users\rcruz\OneDrive\Escritorio\PruebaFinal_CursoWdio\node_modules\@szmarczak\http-timer\dist\source\index.js:43:20)
+                    at Socket.socketErrorListener (_http_client.js:427:9)
+                    at Socket.emit (events.js:314:20)
+                    at Socket.EventEmitter.emit (domain.js:483:12)
+                    at emitErrorNT (internal/streams/destroy.js:92:8)
+                    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)
+                    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1144:16)
+                    at TCPConnectWrap.callbackTrampoline (internal/async_hooks.js:126:14)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

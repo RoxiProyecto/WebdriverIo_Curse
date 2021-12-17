@@ -1,0 +1,30 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "_article.default.articleInCardLayer(...).toLowerCase is not a function",
+      "children" : [ {
+        "name" : "Search Blouse and  add it to cart",
+        "uid" : "9cf8e62df610d156",
+        "parentUid" : "4d30008558cb9cd08e6b63df2b45524f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1639702483381,
+          "stop" : 1639702487578,
+          "duration" : 4197
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ "chrome-96.0.4664.110" ]
+      } ],
+      "uid" : "4d30008558cb9cd08e6b63df2b45524f"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

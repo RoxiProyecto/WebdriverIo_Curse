@@ -1,0 +1,118 @@
+{
+  "uid" : "f43d951dcbd682c8",
+  "name" : "Search Blouse and  add it to cart",
+  "fullName" : "Opencart_search articules.Search Blouse and  add it to cart",
+  "historyId" : "36b82d908b253a7f9f897040b05bc9af",
+  "time" : {
+    "start" : 1639702273686,
+    "stop" : 1639702273717,
+    "duration" : 31
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "connect ECONNREFUSED 127.0.0.1:9515",
+  "statusTrace" : "RequestError: connect ECONNREFUSED 127.0.0.1:9515\n                    at ClientRequest.<anonymous> (C:\\Users\\rcruz\\OneDrive\\Escritorio\\PruebaFinal_CursoWdio\\node_modules\\got\\dist\\source\\core\\index.js:962:111)\n                    at Object.onceWrapper (events.js:421:26)\n                    at ClientRequest.emit (events.js:326:22)\n                    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n                    at ClientRequest.origin.emit (C:\\Users\\rcruz\\OneDrive\\Escritorio\\PruebaFinal_CursoWdio\\node_modules\\@szmarczak\\http-timer\\dist\\source\\index.js:43:20)\n                    at Socket.socketErrorListener (_http_client.js:427:9)\n                    at Socket.emit (events.js:314:20)\n                    at Socket.EventEmitter.emit (domain.js:483:12)\n                    at emitErrorNT (internal/streams/destroy.js:92:8)\n                    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n                    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1144:16)\n                    at TCPConnectWrap.callbackTrampoline (internal/async_hooks.js:126:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "connect ECONNREFUSED 127.0.0.1:9515",
+    "statusTrace" : "RequestError: connect ECONNREFUSED 127.0.0.1:9515\n                    at ClientRequest.<anonymous> (C:\\Users\\rcruz\\OneDrive\\Escritorio\\PruebaFinal_CursoWdio\\node_modules\\got\\dist\\source\\core\\index.js:962:111)\n                    at Object.onceWrapper (events.js:421:26)\n                    at ClientRequest.emit (events.js:326:22)\n                    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n                    at ClientRequest.origin.emit (C:\\Users\\rcruz\\OneDrive\\Escritorio\\PruebaFinal_CursoWdio\\node_modules\\@szmarczak\\http-timer\\dist\\source\\index.js:43:20)\n                    at Socket.socketErrorListener (_http_client.js:427:9)\n                    at Socket.emit (events.js:314:20)\n                    at Socket.EventEmitter.emit (domain.js:483:12)\n                    at emitErrorNT (internal/streams/destroy.js:92:8)\n                    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n                    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1144:16)\n                    at TCPConnectWrap.callbackTrampoline (internal/async_hooks.js:126:14)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1639702273689,
+        "stop" : 1639702273716,
+        "duration" : 27
+      },
+      "status" : "broken",
+      "statusMessage" : "RequestError: connect ECONNREFUSED 127.0.0.1:9515\n                    at ClientRequest.<anonymous> (C:\\Users\\rcruz\\OneDrive\\Escritorio\\PruebaFinal_CursoWdio\\node_modules\\got\\dist\\source\\core\\index.js:962:111)\n                    at Object.onceWrapper (events.js:421:26)\n                    at ClientRequest.emit (events.js:326:22)\n                    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n                    at ClientRequest.origin.emit (C:\\Users\\rcruz\\OneDrive\\Escritorio\\PruebaFinal_CursoWdio\\node_modules\\@szmarczak\\http-timer\\dist\\source\\index.js:43:20)\n                    at Socket.socketErrorListener (_http_client.js:427:9)\n                    at Socket.emit (events.js:314:20)\n                    at Socket.EventEmitter.emit (domain.js:483:12)\n                    at emitErrorNT (internal/streams/destroy.js:92:8)\n                    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n                    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1144:16)\n                    at TCPConnectWrap.callbackTrampoline (internal/async_hooks.js:126:14)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1639702273704,
+          "stop" : 1639702273716,
+          "duration" : 12
+        },
+        "status" : "broken",
+        "statusMessage" : "RequestError: connect ECONNREFUSED 127.0.0.1:9515\n                    at ClientRequest.<anonymous> (C:\\Users\\rcruz\\OneDrive\\Escritorio\\PruebaFinal_CursoWdio\\node_modules\\got\\dist\\source\\core\\index.js:962:111)\n                    at Object.onceWrapper (events.js:421:26)\n                    at ClientRequest.emit (events.js:326:22)\n                    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n                    at ClientRequest.origin.emit (C:\\Users\\rcruz\\OneDrive\\Escritorio\\PruebaFinal_CursoWdio\\node_modules\\@szmarczak\\http-timer\\dist\\source\\index.js:43:20)\n                    at Socket.socketErrorListener (_http_client.js:427:9)\n                    at Socket.emit (events.js:314:20)\n                    at Socket.EventEmitter.emit (domain.js:483:12)\n                    at emitErrorNT (internal/streams/destroy.js:92:8)\n                    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n                    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1144:16)\n                    at TCPConnectWrap.callbackTrampoline (internal/async_hooks.js:126:14)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "24cb4484ec00d7cf",
+        "name" : "Request",
+        "source" : "24cb4484ec00d7cf.json",
+        "type" : "application/json",
+        "size" : 45
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Customer Search Management"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Opencart_search articules"
+  }, {
+    "name" : "testClass",
+    "value" : "Opencart_search articules"
+  }, {
+    "name" : "testMethod",
+    "value" : "Search Blouse and  add it to cart"
+  }, {
+    "name" : "package",
+    "value" : "Opencart_search articules"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f43d951dcbd682c8.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

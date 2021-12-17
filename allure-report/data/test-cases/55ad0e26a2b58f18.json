@@ -1,0 +1,466 @@
+{
+  "uid" : "55ad0e26a2b58f18",
+  "name" : "Debería buscar Shirt",
+  "fullName" : "Opencart_search articules.Debería buscar Shirt",
+  "historyId" : "484b90d3c19c119400ee717694e6ccdf",
+  "time" : {
+    "start" : 1639702659917,
+    "stop" : 1639702663596,
+    "duration" : 3679
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "_search.default.getNameArticle(...).toLowerCase is not a function",
+  "statusTrace" : "TypeError: _search.default.getNameArticle(...).toLowerCase is not a function\n                    at Context.<anonymous> (C:\\Users\\rcruz\\OneDrive\\Escritorio\\PruebaFinal_CursoWdio\\test\\specs\\/opencart.test.js:17:58)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "_search.default.getNameArticle(...).toLowerCase is not a function",
+    "statusTrace" : "TypeError: _search.default.getNameArticle(...).toLowerCase is not a function\n                    at Context.<anonymous> (C:\\Users\\rcruz\\OneDrive\\Escritorio\\PruebaFinal_CursoWdio\\test\\specs\\/opencart.test.js:17:58)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1639702659919,
+        "stop" : 1639702659943,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3c17531f4009c519",
+        "name" : "Request",
+        "source" : "3c17531f4009c519.json",
+        "type" : "application/json",
+        "size" : 45
+      }, {
+        "uid" : "f31ea476511b417e",
+        "name" : "Response",
+        "source" : "f31ea476511b417e.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/element/56e7644e-da60-4f8d-83f2-80c9d3378920/text",
+      "time" : {
+        "start" : 1639702659947,
+        "stop" : 1639702661843,
+        "duration" : 1896
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639702661843,
+        "stop" : 1639702663596,
+        "duration" : 1753
+      },
+      "status" : "broken",
+      "statusMessage" : "TypeError: _search.default.getNameArticle(...).toLowerCase is not a function\n                    at Context.<anonymous> (C:\\Users\\rcruz\\OneDrive\\Escritorio\\PruebaFinal_CursoWdio\\test\\specs\\/opencart.test.js:17:58)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1639702661863,
+          "stop" : 1639702661871,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "3e7d1706fbc8cd73",
+          "name" : "Request",
+          "source" : "3e7d1706fbc8cd73.json",
+          "type" : "application/json",
+          "size" : 73
+        }, {
+          "uid" : "e7a4d5a6d8cb7a26",
+          "name" : "Response",
+          "source" : "e7a4d5a6d8cb7a26.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2
+      }, {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1639702661874,
+          "stop" : 1639702661883,
+          "duration" : 9
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "659dd80d341df23c",
+          "name" : "Request",
+          "source" : "659dd80d341df23c.json",
+          "type" : "application/json",
+          "size" : 58
+        }, {
+          "uid" : "eaaafb927221d195",
+          "name" : "Response",
+          "source" : "eaaafb927221d195.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 2
+      }, {
+        "name" : "GET /session/:sessionId/element/56e7644e-da60-4f8d-83f2-80c9d3378920/text",
+        "time" : {
+          "start" : 1639702661887,
+          "stop" : 1639702661899,
+          "duration" : 12
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "d12d87b1f2f0822e",
+          "name" : "Response",
+          "source" : "d12d87b1f2f0822e.json",
+          "type" : "application/json",
+          "size" : 83
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "POST /session/:sessionId/execute/sync",
+        "time" : {
+          "start" : 1639702661907,
+          "stop" : 1639702662024,
+          "duration" : 117
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1639702661917,
+            "stop" : 1639702661939,
+            "duration" : 22
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "36f8f56f6182de4e",
+            "name" : "Request",
+            "source" : "36f8f56f6182de4e.json",
+            "type" : "application/json",
+            "size" : 73
+          }, {
+            "uid" : "3e3276a26d2d1c40",
+            "name" : "Response",
+            "source" : "3e3276a26d2d1c40.json",
+            "type" : "application/json",
+            "size" : 4
+          } ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 2
+        }, {
+          "name" : "POST /session/:sessionId/execute/sync",
+          "time" : {
+            "start" : 1639702661939,
+            "stop" : 1639702661960,
+            "duration" : 21
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "4eb49a36891154d9",
+            "name" : "Request",
+            "source" : "4eb49a36891154d9.json",
+            "type" : "application/json",
+            "size" : 5649
+          }, {
+            "uid" : "7ff320ef8c33f74f",
+            "name" : "Response",
+            "source" : "7ff320ef8c33f74f.json",
+            "type" : "application/json",
+            "size" : 83
+          } ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 2
+        }, {
+          "name" : "GET /session/:sessionId/element/b53a433f-6102-4aeb-89f9-a5592a77f25b/text",
+          "time" : {
+            "start" : 1639702661969,
+            "stop" : 1639702661975,
+            "duration" : 6
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "173e2396e9c1bd83",
+            "name" : "Response",
+            "source" : "173e2396e9c1bd83.json",
+            "type" : "application/json",
+            "size" : 4
+          } ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1
+        }, {
+          "name" : "POST /session/:sessionId/element/53814cd9-18bd-416d-b2ca-a89972e6434f/clear",
+          "time" : {
+            "start" : 1639702661976,
+            "stop" : 1639702661998,
+            "duration" : 22
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "56fa8b891644c5a5",
+            "name" : "Response",
+            "source" : "56fa8b891644c5a5.json",
+            "type" : "application/json",
+            "size" : 29
+          } ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 1
+        } ],
+        "attachments" : [ {
+          "uid" : "3adc0bcb93bae8fe",
+          "name" : "Request",
+          "source" : "3adc0bcb93bae8fe.json",
+          "type" : "application/json",
+          "size" : 8337
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 4,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 7
+      }, {
+        "name" : "POST /session/:sessionId/element/53814cd9-18bd-416d-b2ca-a89972e6434f/click",
+        "time" : {
+          "start" : 1639702662024,
+          "stop" : 1639702662059,
+          "duration" : 35
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "POST /session/:sessionId/actions",
+        "time" : {
+          "start" : 1639702662060,
+          "stop" : 1639702662083,
+          "duration" : 23
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "82220884f1f96a",
+          "name" : "Request",
+          "source" : "82220884f1f96a.json",
+          "type" : "application/json",
+          "size" : 825
+        } ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 1
+      }, {
+        "name" : "DELETE /session/:sessionId/actions",
+        "time" : {
+          "start" : 1639702662084,
+          "stop" : 1639702662087,
+          "duration" : 3
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "POST /session/:sessionId/element/dc743a09-07ba-4580-b05a-e5c5731bd3e8/click",
+        "time" : {
+          "start" : 1639702662087,
+          "stop" : 1639702663361,
+          "duration" : 1274
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : false,
+        "stepsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0
+      }, {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1639702663361,
+          "stop" : 1639702663596,
+          "duration" : 235
+        },
+        "status" : "broken",
+        "statusMessage" : "TypeError: _search.default.getNameArticle(...).toLowerCase is not a function\n                    at Context.<anonymous> (C:\\Users\\rcruz\\OneDrive\\Escritorio\\PruebaFinal_CursoWdio\\test\\specs\\/opencart.test.js:17:58)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+        "steps" : [ {
+          "name" : "POST /session/:sessionId/element",
+          "time" : {
+            "start" : 1639702663365,
+            "stop" : 1639702663595,
+            "duration" : 230
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ {
+            "uid" : "e484d20985c0ea4",
+            "name" : "Request",
+            "source" : "e484d20985c0ea4.json",
+            "type" : "application/json",
+            "size" : 73
+          }, {
+            "uid" : "21699fec849747cc",
+            "name" : "Screenshot",
+            "source" : "21699fec849747cc.png",
+            "type" : "image/png",
+            "size" : 128713
+          } ],
+          "parameters" : [ ],
+          "hasContent" : true,
+          "stepsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "attachmentsCount" : 2
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "hasContent" : true,
+        "stepsCount" : 1,
+        "shouldDisplayMessage" : true,
+        "attachmentsCount" : 2
+      } ],
+      "attachments" : [ {
+        "uid" : "22c4810b2a97c4b5",
+        "name" : "Request",
+        "source" : "22c4810b2a97c4b5.json",
+        "type" : "application/json",
+        "size" : 69
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 14,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 16
+    }, {
+      "name" : "GET /session/:sessionId/element/a080792c-581b-4856-8c0e-7443b3e28f65/text",
+      "time" : {
+        "start" : 1639702663604,
+        "stop" : 0,
+        "duration" : -1639702663604
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "52c33418fa595372",
+      "name" : "Response",
+      "source" : "52c33418fa595372.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 18,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 19
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Customer Search Management"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Opencart_search articules"
+  }, {
+    "name" : "testClass",
+    "value" : "Opencart_search articules"
+  }, {
+    "name" : "testMethod",
+    "value" : "Debería buscar Shirt"
+  }, {
+    "name" : "package",
+    "value" : "Opencart_search articules"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "55ad0e26a2b58f18.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

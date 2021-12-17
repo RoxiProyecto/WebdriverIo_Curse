@@ -1,0 +1,123 @@
+{
+  "uid" : "c0d8de34536b2796",
+  "name" : "Debería buscar Shirt",
+  "fullName" : "Opencart_search articules.Debería buscar Shirt",
+  "historyId" : "484b90d3c19c119400ee717694e6ccdf",
+  "time" : {
+    "start" : 1639702272713,
+    "stop" : 1639702273655,
+    "duration" : 942
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "read ECONNRESET",
+  "statusTrace" : "RequestError: read ECONNRESET\n                    at ClientRequest.<anonymous> (C:\\Users\\rcruz\\OneDrive\\Escritorio\\PruebaFinal_CursoWdio\\node_modules\\got\\dist\\source\\core\\index.js:962:111)\n                    at Object.onceWrapper (events.js:421:26)\n                    at ClientRequest.emit (events.js:326:22)\n                    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n                    at ClientRequest.origin.emit (C:\\Users\\rcruz\\OneDrive\\Escritorio\\PruebaFinal_CursoWdio\\node_modules\\@szmarczak\\http-timer\\dist\\source\\index.js:43:20)\n                    at Socket.socketErrorListener (_http_client.js:427:9)\n                    at Socket.emit (events.js:314:20)\n                    at Socket.EventEmitter.emit (domain.js:483:12)\n                    at emitErrorNT (internal/streams/destroy.js:92:8)\n                    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n                    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)\n                    at TCP.callbackTrampoline (internal/async_hooks.js:126:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "read ECONNRESET",
+    "statusTrace" : "RequestError: read ECONNRESET\n                    at ClientRequest.<anonymous> (C:\\Users\\rcruz\\OneDrive\\Escritorio\\PruebaFinal_CursoWdio\\node_modules\\got\\dist\\source\\core\\index.js:962:111)\n                    at Object.onceWrapper (events.js:421:26)\n                    at ClientRequest.emit (events.js:326:22)\n                    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n                    at ClientRequest.origin.emit (C:\\Users\\rcruz\\OneDrive\\Escritorio\\PruebaFinal_CursoWdio\\node_modules\\@szmarczak\\http-timer\\dist\\source\\index.js:43:20)\n                    at Socket.socketErrorListener (_http_client.js:427:9)\n                    at Socket.emit (events.js:314:20)\n                    at Socket.EventEmitter.emit (domain.js:483:12)\n                    at emitErrorNT (internal/streams/destroy.js:92:8)\n                    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n                    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)\n                    at TCP.callbackTrampoline (internal/async_hooks.js:126:14)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1639702272716,
+        "stop" : 1639702272734,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dd2b8b0501c4f10f",
+        "name" : "Request",
+        "source" : "dd2b8b0501c4f10f.json",
+        "type" : "application/json",
+        "size" : 45
+      }, {
+        "uid" : "f7ddae703feb7a4",
+        "name" : "Response",
+        "source" : "f7ddae703feb7a4.json",
+        "type" : "application/json",
+        "size" : 8
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 2
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1639702273640,
+        "stop" : 1639702273655,
+        "duration" : 15
+      },
+      "status" : "broken",
+      "statusMessage" : "RequestError: read ECONNRESET\n                    at ClientRequest.<anonymous> (C:\\Users\\rcruz\\OneDrive\\Escritorio\\PruebaFinal_CursoWdio\\node_modules\\got\\dist\\source\\core\\index.js:962:111)\n                    at Object.onceWrapper (events.js:421:26)\n                    at ClientRequest.emit (events.js:326:22)\n                    at ClientRequest.EventEmitter.emit (domain.js:483:12)\n                    at ClientRequest.origin.emit (C:\\Users\\rcruz\\OneDrive\\Escritorio\\PruebaFinal_CursoWdio\\node_modules\\@szmarczak\\http-timer\\dist\\source\\index.js:43:20)\n                    at Socket.socketErrorListener (_http_client.js:427:9)\n                    at Socket.emit (events.js:314:20)\n                    at Socket.EventEmitter.emit (domain.js:483:12)\n                    at emitErrorNT (internal/streams/destroy.js:92:8)\n                    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n                    at TCP.onStreamRead (internal/stream_base_commons.js:209:20)\n                    at TCP.callbackTrampoline (internal/async_hooks.js:126:14)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "attachmentsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Customer Search Management"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Opencart_search articules"
+  }, {
+    "name" : "testClass",
+    "value" : "Opencart_search articules"
+  }, {
+    "name" : "testMethod",
+    "value" : "Debería buscar Shirt"
+  }, {
+    "name" : "package",
+    "value" : "Opencart_search articules"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c0d8de34536b2796.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}
