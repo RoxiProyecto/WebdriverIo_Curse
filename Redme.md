@@ -96,9 +96,9 @@ npm run test
 * [Nodejs](https://nodejs.org/es/) Entorno en tiempo de ejecución multiplataforma para la capa del servidor (en el lado del servidor) basado en JavaScript.
 * [NPM](https://www.npmjs.com/) Gestor de paquetes 
 * [Mocha](https://mochajs.org/) Framework de pruebas
-* [Chai](https://www.chaijs.com/ Libería de aserciones
-* [Allure](https://webdriver.io/docs/allure-reporter Libería de Reportes
-* [Servicio](https://webdriver.io/docs/wdio-image-comparison-service Image Comparison (Visual Regression Testing) Service
+* [Chai](https://www.chaijs.com/) Libería de aserciones
+* [Allure](https://webdriver.io/docs/allure-reporter) Libería de Reportes
+* [Servicio](https://webdriver.io/docs/wdio-image-comparison-service) Image Comparison (Visual Regression Testing) Service
 
 ## Versionado 📌
 
