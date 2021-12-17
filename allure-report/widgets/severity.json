@@ -1,161 +1,151 @@
 [ {
-  "uid" : "3d48ef19240f8495",
-  "name" : "Comparación de imágenes del header-container",
-  "time" : {
-    "start" : 1639708062255,
-    "stop" : 1639708069855,
-    "duration" : 7600
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3bfb33e62941a137",
-  "name" : "should login with invalid credentials, passw",
-  "time" : {
-    "start" : 1639708062279,
-    "stop" : 1639708073387,
-    "duration" : 11108
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "6407919fd8faa915",
+  "uid" : "7014bb3f6e0fa702",
   "name" : "Restrictions of the login inputs, passw < 5",
   "time" : {
-    "start" : 1639708085445,
-    "stop" : 1639708090629,
-    "duration" : 5184
+    "start" : 1639720488469,
+    "stop" : 1639720492013,
+    "duration" : 3544
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "9cf8e62df610d156",
-  "name" : "Search Blouse and  add it to cart",
+  "uid" : "4bed376ef387ac11",
+  "name" : "Restrictions of the login inputs, passw empty",
   "time" : {
-    "start" : 1639702483381,
-    "stop" : 1639702487578,
-    "duration" : 4197
+    "start" : 1639720492013,
+    "stop" : 1639720496316,
+    "duration" : 4303
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1e81b30d57360b65",
+  "name" : "Debería buscar Blouse",
+  "time" : {
+    "start" : 1639719415698,
+    "stop" : 1639719424564,
+    "duration" : 8866
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "d7c591b60a8b3f9e",
+  "name" : "Debería buscar Shirt",
+  "time" : {
+    "start" : 1639719424564,
+    "stop" : 1639719427710,
+    "duration" : 3146
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "16a6ba497fe4b1c9",
+  "name" : "should login with invalid credentials, passw",
+  "time" : {
+    "start" : 1639720470225,
+    "stop" : 1639720481936,
+    "duration" : 11711
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "c610cb8831a3fd8",
+  "name" : "should login with invalid credentials, user email",
+  "time" : {
+    "start" : 1639720481937,
+    "stop" : 1639720485146,
+    "duration" : 3209
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "cf4d576b112fa238",
+  "name" : "should logout and verify logout",
+  "time" : {
+    "start" : 1639720505525,
+    "stop" : 1639720545809,
+    "duration" : 40284
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ab0b0f132f2cb95d",
+  "name" : "Restrictions of the login inputs, emial",
+  "time" : {
+    "start" : 1639720485146,
+    "stop" : 1639720488468,
+    "duration" : 3322
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "f8a271cb48622d8d",
+  "name" : "should logout and verify logout",
+  "time" : {
+    "start" : 1639720137866,
+    "stop" : 1639720137898,
+    "duration" : 32
   },
   "status" : "broken",
   "severity" : "critical"
 }, {
-  "uid" : "d36d1bad58da05cc",
-  "name" : "Search Blouse and add it to cart",
-  "time" : {
-    "start" : 1639699388675,
-    "stop" : 1639699392738,
-    "duration" : 4063
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "8cf8969a7f35887b",
-  "name" : "should logout and verify logout",
-  "time" : {
-    "start" : 1639708107391,
-    "stop" : 1639708150351,
-    "duration" : 42960
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "c57ceb33a08a3e81",
-  "name" : "Debería buscar Shirt",
-  "time" : {
-    "start" : 1639708071627,
-    "stop" : 1639708075969,
-    "duration" : 4342
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "83ccabf197c9efd7",
-  "name" : "Search Shirt and add it to cart",
-  "time" : {
-    "start" : 1639699397346,
-    "stop" : 1639699403445,
-    "duration" : 6099
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "e220ac81d1c5b194",
-  "name" : "Restrictions of the login inputs, emial",
-  "time" : {
-    "start" : 1639708080139,
-    "stop" : 1639708085444,
-    "duration" : 5305
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "5768bf83bc3eb7fe",
-  "name" : "Debería buscar Blouse",
-  "time" : {
-    "start" : 1639708062274,
-    "stop" : 1639708071627,
-    "duration" : 9353
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "156ff0b60cbaa0b5",
+  "uid" : "f686d66455324801",
   "name" : "should login with valid credentials",
   "time" : {
-    "start" : 1639708100472,
-    "stop" : 1639708107390,
-    "duration" : 6918
+    "start" : 1639720501292,
+    "stop" : 1639720505525,
+    "duration" : 4233
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "58eea9f3ac88dae",
-  "name" : "Search Dress and add it to cart",
+  "uid" : "1d63459ee78e4349",
+  "name" : "should login with valid credentials",
   "time" : {
-    "start" : 1639699407476,
-    "stop" : 1639699411978,
-    "duration" : 4502
+    "start" : 1639720137827,
+    "stop" : 1639720137866,
+    "duration" : 39
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "critical"
 }, {
-  "uid" : "843076d27b64cd41",
-  "name" : "should login with invalid credentials, user email",
-  "time" : {
-    "start" : 1639708073387,
-    "stop" : 1639708080139,
-    "duration" : 6752
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "ad13d631d1602745",
+  "uid" : "39d3f3abb9c2803e",
   "name" : "Restrictions of the login inputs, email empty",
   "time" : {
-    "start" : 1639708095748,
-    "stop" : 1639708100415,
-    "duration" : 4667
+    "start" : 1639720496316,
+    "stop" : 1639720501291,
+    "duration" : 4975
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "7cf8e074adab6ef0",
-  "name" : "Restrictions of the login inputs, passw empty",
-  "time" : {
-    "start" : 1639708090629,
-    "stop" : 1639708095747,
-    "duration" : 5118
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "e8123ffbb0ff5c06",
+  "uid" : "b3ea9d471e637f7d",
   "name" : "Debería buscar Dress",
   "time" : {
-    "start" : 1639708075969,
-    "stop" : 1639708080580,
-    "duration" : 4611
+    "start" : 1639719427710,
+    "stop" : 1639719434676,
+    "duration" : 6966
   },
   "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "6d8d95318af64fb7",
+  "name" : "Comparación de imágenes del header-container",
+  "time" : {
+    "start" : 1639720470071,
+    "stop" : 1639720479137,
+    "duration" : 9066
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4182ad269d701f86",
+  "name" : "Search Blouse and  add it to cart",
+  "time" : {
+    "start" : 1639719382318,
+    "stop" : 1639719386018,
+    "duration" : 3700
+  },
+  "status" : "failed",
   "severity" : "critical"
 } ]

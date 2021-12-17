@@ -57,14 +57,14 @@ y con  el comando allure: generate allure-results/ && allure open  vemos nuestro
 ## Estructura 
 Primeramente nos armamos según el patrón de diseño Page Object Model la estructura del proyecto siguiente:
 * carpetas:
-   WorkSpace
-    Proyecto
+   WorkSpace > Proyecto
     allure_results
     node_modules
     test >data
          >pages
-         >specs >
-                >
+         >specs 
+     visual-regresion > actual
+                      > baseline          
     * archivos
     babel.config.js
     package-lock.json
@@ -74,28 +74,40 @@ Primeramente nos armamos según el patrón de diseño Page Object Model la estru
     workspace.code-workspace
 
 ## Comenzando 🚀
-
-
+Se realizan las siguientes pruebas:
+1 -Validación  de login exitoso
+2 -Validación  de Login fallido por usuario_ email incorrecto
+3 -Validación  de Login fallido por password incorrecto
+4 -Validación  de Login fallido por input  email incorrecto restricciones
+5 -Validación  de Login fallido por input password < 5 carácteres.
+6- Validación  de Login inputs, passw empty
+7- Validación  de Login inputs, email empty
+8- Validación  de  Logout
+9- Validación  de Comparación de imágenes del header-container
+10- Validación  de Busqueda de varios articulos 
 
 ## Ejecutando las pruebas ⚙️
 
 * Para ejecutar en la consola o terminal
-
 npm run test
 
+## Ejecutando Reportes ✒️
+
+* Para ejecutar en la consola o terminal
+ allure generate allure-results/ --clean && allure open
 
 ## Construido con 🛠️
-
 * [WebdriverIo](https://webdriver.io/) Herramienta para Nodejs que nos permite crear Test
 * [Nodejs](https://nodejs.org/es/) Entorno en tiempo de ejecución multiplataforma para la capa del servidor (en el lado del servidor) basado en JavaScript.
 * [NPM](https://www.npmjs.com/) Gestor de paquetes 
 * [Mocha](https://mochajs.org/) Framework de pruebas
 * [Chai](https://www.chaijs.com/ Libería de aserciones
-* [Jdk java](https://jdk.java.net/java-se-ri/11) El software que provee las herramientas para desarrollar en Java
+* [Allure](https://webdriver.io/docs/allure-reporter Libería de Reportes
+* [Servicio](https://webdriver.io/docs/wdio-image-comparison-service Image Comparison (Visual Regression Testing) Service
 
 ## Versionado 📌
 
-Usamos [Github]() para el versionado.
+Usamos [Github](https://github.com/RoxiProyecto/WebdriverIo_Curse.git) para el versionado.
 
 ## Autores ✒️
 

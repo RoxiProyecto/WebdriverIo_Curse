@@ -4,23 +4,23 @@
     "uid" : "e5fd594d4d489fab90d85f66b74546a0",
     "name" : "Customer Search Management",
     "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
+      "failed" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 7
+      "total" : 4
     }
   }, {
     "uid" : "14102d61eef2af473312d4f91dec531b",
     "name" : "Login",
     "statistic" : {
       "failed" : 0,
-      "broken" : 0,
+      "broken" : 2,
       "skipped" : 0,
       "passed" : 8,
       "unknown" : 0,
-      "total" : 8
+      "total" : 10
     }
   }, {
     "uid" : "0e832a1425f7ce0f231962537a61fb67",

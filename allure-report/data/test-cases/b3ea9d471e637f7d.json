@@ -1,0 +1,416 @@
+{
+  "uid" : "b3ea9d471e637f7d",
+  "name" : "Debería buscar Dress",
+  "fullName" : "Opencart_search articules.Debería buscar Dress",
+  "historyId" : "9327e8aaa3c4d141b24f3c9c83dd80c1",
+  "time" : {
+    "start" : 1639719427710,
+    "stop" : 1639719434676,
+    "duration" : 6966
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 9,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1639719427711,
+        "stop" : 1639719430531,
+        "duration" : 2820
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6b3e2967564ea07a",
+        "name" : "Request",
+        "source" : "6b3e2967564ea07a.json",
+        "type" : "application/json",
+        "size" : 45
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639719430531,
+        "stop" : 1639719430557,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e2d18bebf2c04f3a",
+        "name" : "Request",
+        "source" : "e2d18bebf2c04f3a.json",
+        "type" : "application/json",
+        "size" : 69
+      }, {
+        "uid" : "976037c8585cd69e",
+        "name" : "Response",
+        "source" : "976037c8585cd69e.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639719430559,
+        "stop" : 1639719430575,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "85ac5627be74b2f1",
+        "name" : "Request",
+        "source" : "85ac5627be74b2f1.json",
+        "type" : "application/json",
+        "size" : 58
+      }, {
+        "uid" : "6f7d127f11abd9e4",
+        "name" : "Response",
+        "source" : "6f7d127f11abd9e4.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1639719430578,
+        "stop" : 1639719430591,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5fdac476f07fd98d",
+        "name" : "Request",
+        "source" : "5fdac476f07fd98d.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "a155ae87bd3c39cf",
+        "name" : "Response",
+        "source" : "a155ae87bd3c39cf.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1639719430591,
+        "stop" : 1639719430607,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8cf68fa563e38cfb",
+        "name" : "Request",
+        "source" : "8cf68fa563e38cfb.json",
+        "type" : "application/json",
+        "size" : 5649
+      }, {
+        "uid" : "1945ffb406b13478",
+        "name" : "Response",
+        "source" : "1945ffb406b13478.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/b7b7558d-349d-470b-9651-f910a377c2b4/clear",
+      "time" : {
+        "start" : 1639719430608,
+        "stop" : 1639719430652,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/b7b7558d-349d-470b-9651-f910a377c2b4/click",
+      "time" : {
+        "start" : 1639719430652,
+        "stop" : 1639719430686,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/actions",
+      "time" : {
+        "start" : 1639719430686,
+        "stop" : 1639719430698,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "848a60d291297ea0",
+        "name" : "Request",
+        "source" : "848a60d291297ea0.json",
+        "type" : "application/json",
+        "size" : 825
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "DELETE /session/:sessionId/actions",
+      "time" : {
+        "start" : 1639719430698,
+        "stop" : 1639719430704,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/8bb92846-a058-4281-bf91-a0583ee6c514/click",
+      "time" : {
+        "start" : 1639719430704,
+        "stop" : 1639719434638,
+        "duration" : 3934
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639719434638,
+        "stop" : 1639719434655,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9759918e626895d1",
+        "name" : "Request",
+        "source" : "9759918e626895d1.json",
+        "type" : "application/json",
+        "size" : 73
+      }, {
+        "uid" : "7940999475f02e1f",
+        "name" : "Response",
+        "source" : "7940999475f02e1f.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/element/a87f1e0e-fcb1-4e6a-ac23-3158d5e80bdf/text",
+      "time" : {
+        "start" : 1639719434659,
+        "stop" : 1639719434675,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "62f75479458d0509",
+        "name" : "Response",
+        "source" : "62f75479458d0509.json",
+        "type" : "application/json",
+        "size" : 22
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 13,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 12
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Customer Search Management"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Opencart_search articules"
+  }, {
+    "name" : "testClass",
+    "value" : "Opencart_search articules"
+  }, {
+    "name" : "testMethod",
+    "value" : "Debería buscar Dress"
+  }, {
+    "name" : "package",
+    "value" : "Opencart_search articules"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "b6633d3c1d8aa379",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639719378781,
+        "stop" : 1639719382317,
+        "duration" : 3536
+      }
+    }, {
+      "uid" : "f84781d7a81b0f0e",
+      "status" : "broken",
+      "statusDetails" : "the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string",
+      "time" : {
+        "start" : 1639719175978,
+        "stop" : 1639719180456,
+        "duration" : 4478
+      }
+    }, {
+      "uid" : "5b8875dc73e81137",
+      "status" : "broken",
+      "statusDetails" : "the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string",
+      "time" : {
+        "start" : 1639719054092,
+        "stop" : 1639719057771,
+        "duration" : 3679
+      }
+    }, {
+      "uid" : "13a5c5bfe4b19639",
+      "status" : "broken",
+      "statusDetails" : "the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string",
+      "time" : {
+        "start" : 1639718913502,
+        "stop" : 1639718918179,
+        "duration" : 4677
+      }
+    }, {
+      "uid" : "c3bcf025fb4c3c08",
+      "status" : "broken",
+      "statusDetails" : "the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string",
+      "time" : {
+        "start" : 1639718640918,
+        "stop" : 1639718646349,
+        "duration" : 5431
+      }
+    }, {
+      "uid" : "f6705daa0700ab6b",
+      "status" : "broken",
+      "statusDetails" : "the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string",
+      "time" : {
+        "start" : 1639716345008,
+        "stop" : 1639716349753,
+        "duration" : 4745
+      }
+    }, {
+      "uid" : "c01bd2f33df3e34b",
+      "status" : "broken",
+      "statusDetails" : "the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string",
+      "time" : {
+        "start" : 1639714073920,
+        "stop" : 1639714079952,
+        "duration" : 6032
+      }
+    }, {
+      "uid" : "b6de7b2399f150e3",
+      "status" : "broken",
+      "statusDetails" : "the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string",
+      "time" : {
+        "start" : 1639712845097,
+        "stop" : 1639712849662,
+        "duration" : 4565
+      }
+    }, {
+      "uid" : "6ac0e39553556315",
+      "status" : "broken",
+      "statusDetails" : "the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string",
+      "time" : {
+        "start" : 1639711710287,
+        "stop" : 1639711714817,
+        "duration" : 4530
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b3ea9d471e637f7d.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

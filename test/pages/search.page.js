@@ -30,28 +30,14 @@ class SearchPage extends BasePage {
 
    async getNameArticle() {
       try {
-         const nameProduct = await this.name.getText().toLowerCase();
-         return await nameProduct;
+         const nameProduct = await this.name.getText();
+         return await nameProduct.toLowerCase();
       } catch (error) {
          console.log("error in articule");
       }
 
    }
-
-    /**
-    * Retorn  lista de los nombres de Articulos
-    */
-
-   async getArticulesListTitle() {
-      const articulesList = [];
-      articulesList.map((articles) =>
-         articulesList.push(articles.getTitle().toLowerCase())
-      );
-      console.log(articulesList);
-      return articulesList;
-   }
-
-
+    
 
 }
 

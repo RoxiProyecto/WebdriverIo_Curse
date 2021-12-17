@@ -1,0 +1,196 @@
+{
+  "uid" : "f8a271cb48622d8d",
+  "name" : "should logout and verify logout",
+  "fullName" : "My Login application succes.should logout and verify logout",
+  "historyId" : "6f2dd898b2884476526c33c940b4f74",
+  "time" : {
+    "start" : 1639720137866,
+    "stop" : 1639720137898,
+    "duration" : 32
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=96.0.4664.110)",
+  "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x006B6903+2517251]\n                \tOrdinal0 [0x0064F8E1+2095329]\n                \tOrdinal0 [0x00552848+1058888]\n                \tOrdinal0 [0x0053BF90+966544]\n                \tOrdinal0 [0x00598999+1345945]\n                \tOrdinal0 [0x005A5342+1397570]\n                \tOrdinal0 [0x0059639B+1336219]\n                \tOrdinal0 [0x005727A7+1189799]\n                \tOrdinal0 [0x00573609+1193481]\n                \tGetHandleVerifier [0x00845904+1577972]\n                \tGetHandleVerifier [0x008F0B97+2279047]\n                \tGetHandleVerifier [0x00746D09+534521]\n                \tGetHandleVerifier [0x00745DB9+530601]\n                \tOrdinal0 [0x00654FF9+2117625]\n                \tOrdinal0 [0x006598A8+2136232]\n                \tOrdinal0 [0x006599E2+2136546]\n                \tOrdinal0 [0x00663541+2176321]\n                \tBaseThreadInitThunk [0x75CBFA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x774C7A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x774C7A6E+238]\n                ",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 9,
+  "retriesStatusChange" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "no such window: target window already closed\n                from unknown error: web view not found\n                  (Session info: chrome=96.0.4664.110)",
+    "statusTrace" : "Backtrace:\n                \tOrdinal0 [0x006B6903+2517251]\n                \tOrdinal0 [0x0064F8E1+2095329]\n                \tOrdinal0 [0x00552848+1058888]\n                \tOrdinal0 [0x0053BF90+966544]\n                \tOrdinal0 [0x00598999+1345945]\n                \tOrdinal0 [0x005A5342+1397570]\n                \tOrdinal0 [0x0059639B+1336219]\n                \tOrdinal0 [0x005727A7+1189799]\n                \tOrdinal0 [0x00573609+1193481]\n                \tGetHandleVerifier [0x00845904+1577972]\n                \tGetHandleVerifier [0x008F0B97+2279047]\n                \tGetHandleVerifier [0x00746D09+534521]\n                \tGetHandleVerifier [0x00745DB9+530601]\n                \tOrdinal0 [0x00654FF9+2117625]\n                \tOrdinal0 [0x006598A8+2136232]\n                \tOrdinal0 [0x006599E2+2136546]\n                \tOrdinal0 [0x00663541+2176321]\n                \tBaseThreadInitThunk [0x75CBFA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x774C7A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x774C7A6E+238]\n                ",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1639720137869,
+        "stop" : 1639720137898,
+        "duration" : 29
+      },
+      "status" : "broken",
+      "statusMessage" : "Backtrace:\n                \tOrdinal0 [0x006B6903+2517251]\n                \tOrdinal0 [0x0064F8E1+2095329]\n                \tOrdinal0 [0x00552848+1058888]\n                \tOrdinal0 [0x0053BF90+966544]\n                \tOrdinal0 [0x00598999+1345945]\n                \tOrdinal0 [0x005A5342+1397570]\n                \tOrdinal0 [0x0059639B+1336219]\n                \tOrdinal0 [0x005727A7+1189799]\n                \tOrdinal0 [0x00573609+1193481]\n                \tGetHandleVerifier [0x00845904+1577972]\n                \tGetHandleVerifier [0x008F0B97+2279047]\n                \tGetHandleVerifier [0x00746D09+534521]\n                \tGetHandleVerifier [0x00745DB9+530601]\n                \tOrdinal0 [0x00654FF9+2117625]\n                \tOrdinal0 [0x006598A8+2136232]\n                \tOrdinal0 [0x006599E2+2136546]\n                \tOrdinal0 [0x00663541+2176321]\n                \tBaseThreadInitThunk [0x75CBFA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x774C7A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x774C7A6E+238]\n                ",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1639720137886,
+          "stop" : 1639720137898,
+          "duration" : 12
+        },
+        "status" : "broken",
+        "statusMessage" : "Backtrace:\n                \tOrdinal0 [0x006B6903+2517251]\n                \tOrdinal0 [0x0064F8E1+2095329]\n                \tOrdinal0 [0x00552848+1058888]\n                \tOrdinal0 [0x0053BF90+966544]\n                \tOrdinal0 [0x00598999+1345945]\n                \tOrdinal0 [0x005A5342+1397570]\n                \tOrdinal0 [0x0059639B+1336219]\n                \tOrdinal0 [0x005727A7+1189799]\n                \tOrdinal0 [0x00573609+1193481]\n                \tGetHandleVerifier [0x00845904+1577972]\n                \tGetHandleVerifier [0x008F0B97+2279047]\n                \tGetHandleVerifier [0x00746D09+534521]\n                \tGetHandleVerifier [0x00745DB9+530601]\n                \tOrdinal0 [0x00654FF9+2117625]\n                \tOrdinal0 [0x006598A8+2136232]\n                \tOrdinal0 [0x006599E2+2136546]\n                \tOrdinal0 [0x00663541+2176321]\n                \tBaseThreadInitThunk [0x75CBFA29+25]\n                \tRtlGetAppContainerNamedObjectPath [0x774C7A9E+286]\n                \tRtlGetAppContainerNamedObjectPath [0x774C7A6E+238]\n                ",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "8af6a6e762f2de80",
+        "name" : "Request",
+        "source" : "8af6a6e762f2de80.json",
+        "type" : "application/json",
+        "size" : 45
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 2
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Login"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "Critical"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "My Login application succes"
+  }, {
+    "name" : "testClass",
+    "value" : "My Login application succes"
+  }, {
+    "name" : "testMethod",
+    "value" : "should logout and verify logout"
+  }, {
+    "name" : "package",
+    "value" : "My Login application succes"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ {
+      "uid" : "a950db11dc2105d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639719905987,
+        "stop" : 1639719948246,
+        "duration" : 42259
+      }
+    }, {
+      "uid" : "b4715fa5b075e5e4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639719774570,
+        "stop" : 1639719818061,
+        "duration" : 43491
+      }
+    }, {
+      "uid" : "140be02d3fc278e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639719561823,
+        "stop" : 1639719604306,
+        "duration" : 42483
+      }
+    }, {
+      "uid" : "a168f4470c2ebbe5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639718949109,
+        "stop" : 1639718992296,
+        "duration" : 43187
+      }
+    }, {
+      "uid" : "cea5f6668993916a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639718680006,
+        "stop" : 1639718722875,
+        "duration" : 42869
+      }
+    }, {
+      "uid" : "cbbe5e3a93b50af2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639716383792,
+        "stop" : 1639716426202,
+        "duration" : 42410
+      }
+    }, {
+      "uid" : "685d4bdbff7ccfbd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639714114119,
+        "stop" : 1639714157502,
+        "duration" : 43383
+      }
+    }, {
+      "uid" : "5aa962e01748198e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639712876470,
+        "stop" : 1639712918467,
+        "duration" : 41997
+      }
+    }, {
+      "uid" : "8edd8665075747c4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639711744622,
+        "stop" : 1639711786801,
+        "duration" : 42179
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "f8a271cb48622d8d.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

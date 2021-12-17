@@ -1,0 +1,354 @@
+{
+  "uid" : "bdf08fec24ef8b2",
+  "name" : "Debería buscar Blouse",
+  "fullName" : "Opencart_search articules.Debería buscar Blouse",
+  "historyId" : "cce7359724a0b56fd90f8d78f556c0fb",
+  "time" : {
+    "start" : 1639712831669,
+    "stop" : 1639712840408,
+    "duration" : 8739
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string",
+  "statusTrace" : "AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string\n                    at Context.<anonymous> (C:\\Users\\rcruz\\OneDrive\\Escritorio\\WebdriverIO_Curse\\WebdriverIo_Curse\\test\\specs\\/opencart.test.js:17:62)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string",
+    "statusTrace" : "AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string\n                    at Context.<anonymous> (C:\\Users\\rcruz\\OneDrive\\Escritorio\\WebdriverIO_Curse\\WebdriverIo_Curse\\test\\specs\\/opencart.test.js:17:62)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1639712831724,
+        "stop" : 1639712838619,
+        "duration" : 6895
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "471d72bb2cbdc2d6",
+        "name" : "Request",
+        "source" : "471d72bb2cbdc2d6.json",
+        "type" : "application/json",
+        "size" : 45
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639712838621,
+        "stop" : 1639712838652,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9b786267c37c89ef",
+        "name" : "Request",
+        "source" : "9b786267c37c89ef.json",
+        "type" : "application/json",
+        "size" : 69
+      }, {
+        "uid" : "55cef8878c92661b",
+        "name" : "Response",
+        "source" : "55cef8878c92661b.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1639712838660,
+        "stop" : 1639712838673,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4be9409c9ab159c6",
+        "name" : "Request",
+        "source" : "4be9409c9ab159c6.json",
+        "type" : "application/json",
+        "size" : 58
+      }, {
+        "uid" : "8ff2cf11ef2d2a1d",
+        "name" : "Response",
+        "source" : "8ff2cf11ef2d2a1d.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1639712838681,
+        "stop" : 1639712838702,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "418f877b92ea895a",
+        "name" : "Request",
+        "source" : "418f877b92ea895a.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "1a06da7e91159d88",
+        "name" : "Response",
+        "source" : "1a06da7e91159d88.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1639712838703,
+        "stop" : 1639712838718,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b0817f8ea6c9a0cd",
+        "name" : "Request",
+        "source" : "b0817f8ea6c9a0cd.json",
+        "type" : "application/json",
+        "size" : 5649
+      }, {
+        "uid" : "57c25aeb98ab999b",
+        "name" : "Response",
+        "source" : "57c25aeb98ab999b.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/be4c04fc-8269-4ced-9525-8617576e3294/clear",
+      "time" : {
+        "start" : 1639712838718,
+        "stop" : 1639712838795,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/be4c04fc-8269-4ced-9525-8617576e3294/click",
+      "time" : {
+        "start" : 1639712838796,
+        "stop" : 1639712838854,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/actions",
+      "time" : {
+        "start" : 1639712838859,
+        "stop" : 1639712838901,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7e40b52fe9e9b3ea",
+        "name" : "Request",
+        "source" : "7e40b52fe9e9b3ea.json",
+        "type" : "application/json",
+        "size" : 969
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "DELETE /session/:sessionId/actions",
+      "time" : {
+        "start" : 1639712838901,
+        "stop" : 1639712838906,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "POST /session/:sessionId/element/71253cb9-d89d-4bef-9177-d647cc74c7cc/click",
+      "time" : {
+        "start" : 1639712838906,
+        "stop" : 1639712840266,
+        "duration" : 1360
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1639712840270,
+        "stop" : 1639712840408,
+        "duration" : 138
+      },
+      "status" : "broken",
+      "statusMessage" : "AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string\n                    at Context.<anonymous> (C:\\Users\\rcruz\\OneDrive\\Escritorio\\WebdriverIO_Curse\\WebdriverIo_Curse\\test\\specs\\/opencart.test.js:17:62)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)",
+      "steps" : [ {
+        "name" : "POST /session/:sessionId/element",
+        "time" : {
+          "start" : 1639712840270,
+          "stop" : 1639712840402,
+          "duration" : 132
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "b98f0632458eeea7",
+          "name" : "Request",
+          "source" : "b98f0632458eeea7.json",
+          "type" : "application/json",
+          "size" : 73
+        }, {
+          "uid" : "33fdf4ef02e76c9e",
+          "name" : "Screenshot",
+          "source" : "33fdf4ef02e76c9e.png",
+          "type" : "image/png",
+          "size" : 135605
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 2,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 1
+    }, {
+      "name" : "GET /session/:sessionId/element/71a4737c-1f55-4543-b20d-dca92f75f9de/text",
+      "time" : {
+        "start" : 1639712840414,
+        "stop" : 0,
+        "duration" : -1639712840414
+      },
+      "status" : "unknown",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "13151b81910a2aff",
+      "name" : "Response",
+      "source" : "13151b81910a2aff.json",
+      "type" : "application/json",
+      "size" : 83
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 13,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 13
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "Customer Search Management"
+  }, {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Opencart_search articules"
+  }, {
+    "name" : "testClass",
+    "value" : "Opencart_search articules"
+  }, {
+    "name" : "testMethod",
+    "value" : "Debería buscar Blouse"
+  }, {
+    "name" : "package",
+    "value" : "Opencart_search articules"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-96.0.4664.110"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bdf08fec24ef8b2.json",
+  "parameterValues" : [ "chrome-96.0.4664.110" ]
+}

@@ -4,12 +4,23 @@
     "uid" : "1edc7eed8cb2c4aa92ce178623cc281d",
     "name" : "Opencart_search articules",
     "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
+      "failed" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 7
+      "total" : 4
+    }
+  }, {
+    "uid" : "29b50045126b6c08864fadd5a13042c6",
+    "name" : "My Login application succes",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 2,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
     }
   }, {
     "uid" : "c543ea66113c61e57dd8869e134124f3",
@@ -18,20 +29,9 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 6,
+      "passed" : 8,
       "unknown" : 0,
-      "total" : 6
-    }
-  }, {
-    "uid" : "29b50045126b6c08864fadd5a13042c6",
-    "name" : "My Login application succes",
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 2,
-      "unknown" : 0,
-      "total" : 2
+      "total" : 8
     }
   }, {
     "uid" : "520f5c57543455f4a490a10bb4997d0a",

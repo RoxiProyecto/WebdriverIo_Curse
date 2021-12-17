@@ -28,7 +28,7 @@ describe('My wrong login app', () => {
         allureReporter.addSeverity('Critical')
         const user = 'rcruzs8407@gmail.comcom';
         const passw = 'Rocio';
-        await HomeSearchPage.open('/');
+       // await HomeSearchPage.open('/');
         await LoginPage.signIn();
         await LoginPage.login(user, passw);
         chaiExpect(await LoginPage.ensurePage()).to.be.true;
@@ -42,7 +42,7 @@ describe('My wrong login app', () => {
         allureReporter.addSeverity('Critical')
         const user = 'rcruzs8407gmail.comcom';
         const passw = 'Rocio';
-        await HomeSearchPage.open('/');
+       // await HomeSearchPage.open('/');
         await LoginPage.signIn();
         await LoginPage.login(user, passw);
         chaiExpect(await LoginPage.ensurePage()).to.be.true;
@@ -55,7 +55,7 @@ describe('My wrong login app', () => {
         allureReporter.addSeverity('Critical')
         const user = 'rcruzs8407@gmail.com';
         const passw = 'Roc';
-        await HomeSearchPage.open('/');
+       // await HomeSearchPage.open('/');
         await LoginPage.signIn();
         await LoginPage.login(user, passw);
         chaiExpect(await LoginPage.ensurePage()).to.be.true;
@@ -68,7 +68,7 @@ describe('My wrong login app', () => {
         allureReporter.addSeverity('Critical')
         const user = 'rcruzs8407@gmail.com';
         const passw = '';
-        await HomeSearchPage.open('/');
+       // await HomeSearchPage.open('/');
         await LoginPage.signIn();
         await LoginPage.login(user, passw);
         chaiExpect(await LoginPage.ensurePage()).to.be.true;
@@ -81,7 +81,7 @@ describe('My wrong login app', () => {
         allureReporter.addSeverity('Critical')
         const user = '';
         const passw = 'Rocio';
-        await HomeSearchPage.open('/');
+       // await HomeSearchPage.open('/');
         await LoginPage.signIn();
         await LoginPage.login(user, passw);
         chaiExpect(await LoginPage.ensurePage()).to.be.true;
@@ -90,14 +90,14 @@ describe('My wrong login app', () => {
 
     });
     
-});
-describe('My Login application succes', () => {
+//});
+//describe('My Login application succes', () => {
     it('should login with valid credentials', async () => {
         allureReporter.addFeature('Login')
         allureReporter.addSeverity('Critical')
         const user = 'rcruzs8407@gmail.com';
         const passw = 'Rocio';
-        await HomeSearchPage.open('/');
+       // await HomeSearchPage.open('/');
         await LoginPage.signIn();
         await LoginPage.login(user, passw);
         chaiExpect(await LoginPage.ensurePage()).to.be.true;
@@ -109,11 +109,12 @@ describe('My Login application succes', () => {
         allureReporter.addSeverity('Critical')
         const user = 'rcruzs8407@gmail.com';
         const passw = 'Rocio';
-        await HomeSearchPage.open('/');
+       // await HomeSearchPage.open('/');
         await LoginPage.signIn();
         await LoginPage.login(user, passw);
         await LoginPage.logOut();
         chaiExpect(await LoginPage.ensureLogoutInPage()).to.be.false;
+        await LoginPage.closeWindows();
 
     });
 });
