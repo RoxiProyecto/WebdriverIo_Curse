@@ -1,12 +1,8 @@
 import HomeSearchPage from "../pages/home.page";
 import LoginPage from "../pages/login.page";
 import allureReporter from '@wdio/allure-reporter'
-import {
-    expect as chaiExpect
-} from "chai";
-import {
-    assert as chaiAssert
-} from "chai";
+import {expect as chaiExpect} from "chai";
+import {assert as chaiAssert} from "chai";
 
 describe('My wrong login app', () => {
     it('should login with invalid credentials, passw', async () => {

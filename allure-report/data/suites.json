@@ -2,275 +2,165 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "Opencart_search articules",
-    "children" : [ {
-      "name" : "Search Blouse and  add it to cart",
-      "uid" : "4182ad269d701f86",
-      "parentUid" : "1edc7eed8cb2c4aa92ce178623cc281d",
-      "status" : "failed",
-      "time" : {
-        "start" : 1639719382318,
-        "stop" : 1639719386018,
-        "duration" : 3700
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 3,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-96.0.4664.110" ]
-    }, {
-      "name" : "Debería buscar Blouse",
-      "uid" : "1e81b30d57360b65",
-      "parentUid" : "1edc7eed8cb2c4aa92ce178623cc281d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639719415698,
-        "stop" : 1639719424564,
-        "duration" : 8866
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 9,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-96.0.4664.110" ]
-    }, {
-      "name" : "Debería buscar Shirt",
-      "uid" : "d7c591b60a8b3f9e",
-      "parentUid" : "1edc7eed8cb2c4aa92ce178623cc281d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639719424564,
-        "stop" : 1639719427710,
-        "duration" : 3146
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 9,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-96.0.4664.110" ]
-    }, {
-      "name" : "Debería buscar Dress",
-      "uid" : "b3ea9d471e637f7d",
-      "parentUid" : "1edc7eed8cb2c4aa92ce178623cc281d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639719427710,
-        "stop" : 1639719434676,
-        "duration" : 6966
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 9,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-96.0.4664.110" ]
-    } ],
-    "uid" : "1edc7eed8cb2c4aa92ce178623cc281d"
-  }, {
-    "name" : "My Login application succes",
-    "children" : [ {
-      "name" : "should login with valid credentials",
-      "uid" : "1d63459ee78e4349",
-      "parentUid" : "29b50045126b6c08864fadd5a13042c6",
-      "status" : "broken",
-      "time" : {
-        "start" : 1639720137827,
-        "stop" : 1639720137866,
-        "duration" : 39
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 9,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-96.0.4664.110" ]
-    }, {
-      "name" : "should logout and verify logout",
-      "uid" : "f8a271cb48622d8d",
-      "parentUid" : "29b50045126b6c08864fadd5a13042c6",
-      "status" : "broken",
-      "time" : {
-        "start" : 1639720137866,
-        "stop" : 1639720137898,
-        "duration" : 32
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 9,
-      "retriesStatusChange" : true,
-      "parameters" : [ "chrome-96.0.4664.110" ]
-    } ],
-    "uid" : "29b50045126b6c08864fadd5a13042c6"
-  }, {
-    "name" : "My images of my application",
-    "children" : [ {
-      "name" : "Comparación de imágenes del header-container",
-      "uid" : "6d8d95318af64fb7",
-      "parentUid" : "520f5c57543455f4a490a10bb4997d0a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1639720470071,
-        "stop" : 1639720479137,
-        "duration" : 9066
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "newPassed" : false,
-      "newBroken" : false,
-      "retriesCount" : 15,
-      "retriesStatusChange" : false,
-      "parameters" : [ "chrome-96.0.4664.110" ]
-    } ],
-    "uid" : "520f5c57543455f4a490a10bb4997d0a"
-  }, {
     "name" : "My wrong login app",
     "children" : [ {
       "name" : "should login with invalid credentials, passw",
-      "uid" : "16a6ba497fe4b1c9",
+      "uid" : "1ec97dce8e1be6aa",
       "parentUid" : "c543ea66113c61e57dd8869e134124f3",
       "status" : "passed",
       "time" : {
-        "start" : 1639720470225,
-        "stop" : 1639720481936,
-        "duration" : 11711
+        "start" : 1639739810263,
+        "stop" : 1639739819133,
+        "duration" : 8870
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 11,
+      "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-96.0.4664.110" ]
     }, {
       "name" : "should login with invalid credentials, user email",
-      "uid" : "c610cb8831a3fd8",
+      "uid" : "5b8045fd2da24ee7",
       "parentUid" : "c543ea66113c61e57dd8869e134124f3",
       "status" : "passed",
       "time" : {
-        "start" : 1639720481937,
-        "stop" : 1639720485146,
-        "duration" : 3209
+        "start" : 1639739819133,
+        "stop" : 1639739822103,
+        "duration" : 2970
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 11,
+      "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-96.0.4664.110" ]
     }, {
       "name" : "Restrictions of the login inputs, emial",
-      "uid" : "ab0b0f132f2cb95d",
+      "uid" : "a41be04fcec4f07d",
       "parentUid" : "c543ea66113c61e57dd8869e134124f3",
       "status" : "passed",
       "time" : {
-        "start" : 1639720485146,
-        "stop" : 1639720488468,
-        "duration" : 3322
+        "start" : 1639739822103,
+        "stop" : 1639739824860,
+        "duration" : 2757
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 11,
+      "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-96.0.4664.110" ]
     }, {
       "name" : "Restrictions of the login inputs, passw < 5",
-      "uid" : "7014bb3f6e0fa702",
+      "uid" : "19e83d3ff236eec2",
       "parentUid" : "c543ea66113c61e57dd8869e134124f3",
       "status" : "passed",
       "time" : {
-        "start" : 1639720488469,
-        "stop" : 1639720492013,
-        "duration" : 3544
+        "start" : 1639739824860,
+        "stop" : 1639739827777,
+        "duration" : 2917
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 11,
+      "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-96.0.4664.110" ]
     }, {
       "name" : "Restrictions of the login inputs, passw empty",
-      "uid" : "4bed376ef387ac11",
+      "uid" : "44966d692cde3969",
       "parentUid" : "c543ea66113c61e57dd8869e134124f3",
       "status" : "passed",
       "time" : {
-        "start" : 1639720492013,
-        "stop" : 1639720496316,
-        "duration" : 4303
+        "start" : 1639739827778,
+        "stop" : 1639739830543,
+        "duration" : 2765
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 11,
+      "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-96.0.4664.110" ]
     }, {
       "name" : "Restrictions of the login inputs, email empty",
-      "uid" : "39d3f3abb9c2803e",
+      "uid" : "8be9e5fdbdd603fa",
       "parentUid" : "c543ea66113c61e57dd8869e134124f3",
       "status" : "passed",
       "time" : {
-        "start" : 1639720496316,
-        "stop" : 1639720501291,
-        "duration" : 4975
+        "start" : 1639739830543,
+        "stop" : 1639739833640,
+        "duration" : 3097
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 11,
-      "retriesStatusChange" : true,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
       "parameters" : [ "chrome-96.0.4664.110" ]
     }, {
       "name" : "should login with valid credentials",
-      "uid" : "f686d66455324801",
+      "uid" : "dd8eba3262dcd167",
       "parentUid" : "c543ea66113c61e57dd8869e134124f3",
       "status" : "passed",
       "time" : {
-        "start" : 1639720501292,
-        "stop" : 1639720505525,
-        "duration" : 4233
+        "start" : 1639739833640,
+        "stop" : 1639739838689,
+        "duration" : 5049
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 1,
+      "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-96.0.4664.110" ]
     }, {
       "name" : "should logout and verify logout",
-      "uid" : "cf4d576b112fa238",
+      "uid" : "fc08dd48ee4c17a",
       "parentUid" : "c543ea66113c61e57dd8869e134124f3",
       "status" : "passed",
       "time" : {
-        "start" : 1639720505525,
-        "stop" : 1639720545809,
-        "duration" : 40284
+        "start" : 1639739838689,
+        "stop" : 1639739878991,
+        "duration" : 40302
       },
       "flaky" : false,
       "newFailed" : false,
       "newPassed" : false,
       "newBroken" : false,
-      "retriesCount" : 1,
+      "retriesCount" : 0,
       "retriesStatusChange" : false,
       "parameters" : [ "chrome-96.0.4664.110" ]
     } ],
     "uid" : "c543ea66113c61e57dd8869e134124f3"
+  }, {
+    "name" : "My images of my application",
+    "children" : [ {
+      "name" : "Comparación de imágenes del header-container",
+      "uid" : "7cb6797186326c1b",
+      "parentUid" : "520f5c57543455f4a490a10bb4997d0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1639739810264,
+        "stop" : 1639739816087,
+        "duration" : 5823
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-96.0.4664.110" ]
+    } ],
+    "uid" : "520f5c57543455f4a490a10bb4997d0a"
   } ]
 }

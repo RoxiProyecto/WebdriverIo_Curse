@@ -10,9 +10,9 @@ class HomeSearchPage extends BasePage {
     tabSelector(name) { return $(`.sf-with-ul=${name.toUpperCase()}`);}
    
 
-    //click en el banner de search inserto el producto y busco
+    
     async searchArticles(articles) {
-        //addStep(`Buscar artículo: ${product}`);
+        
         const searchField = await browser.$(this.searchFieldSel);
         const searchIcon = await browser.$(this.iconSearch);
         try {
@@ -24,18 +24,8 @@ class HomeSearchPage extends BasePage {
         }
 
     }
-   // aguarda y da click
-    // async sendClickArticle(articles) {
-    //     try {
-    //         const elementsArticles = await browser.$(this.articlesContainer);
-    //         await elemento.click();
-    //     } catch (error) {
-    //         console.log('error en el select product');
-    //         throw (error);
-    //     }
-    // }
-   
-    // para seleccionar el tap ejemplo Woman
+  
+
     async selectTapName(menuName) {
         try {
             const menuSelected = await browser.$(this.tabSelector(menuName));

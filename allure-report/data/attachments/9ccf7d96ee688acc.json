@@ -1,4 +1,0 @@
-{
-  "script": "return (async logOut() {\n    try {\n      const btnlogout = await browser.$(this.logOut);\n      await btnlogout.click();\n    } catch (error) {\n      console.log('error selected in logout');\n    }\n  }).apply(null, arguments)",
-  "args": []
-}

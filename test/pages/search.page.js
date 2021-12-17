@@ -2,7 +2,7 @@ import BasePage from './base.page';
 
 class SearchPage extends BasePage {
 
-   //Elementos Web
+   //selectores
 
    get articles() {
       return '.ajax_block_product>.product-container';
@@ -11,9 +11,7 @@ class SearchPage extends BasePage {
       return $('.right-block>h5>.product-name');
    }
 
-   /**
-    * Click en el resultado de la búsqueda
-    */
+  // metodos
    async clickArticle() {
 
       try {
@@ -24,10 +22,7 @@ class SearchPage extends BasePage {
       }
    }
 
-   /**
-    * Obtener texto del resultado de la búsqueda
-    */
-
+  
    async getNameArticle() {
       try {
          const nameProduct = await this.name.getText();

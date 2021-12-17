@@ -16,7 +16,7 @@ export default class BasePage {
        
     }
  
-   //espera x elemento, limpia  del input  y luego escribe
+   
     async cleanFieldAndSendText(elemento, texto){
         try {
             await elemento.waitForClickable({ timeout: PAGE_TIMEOUT });
