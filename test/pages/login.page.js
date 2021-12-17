@@ -19,7 +19,6 @@ class LoginPage extends BasePage {
         try {
         const userField = await browser.$(this.inputUsername);
         const passwordField = await browser.$(this.inputPassword);
-        
         const btnConfirmLogin= await browser.$(this.btnSubmitLogin);
 
         await super.cleanFieldAndSendText(userField, username);

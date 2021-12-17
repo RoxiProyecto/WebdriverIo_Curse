@@ -22,7 +22,6 @@ class SearchPage extends BasePage {
       }
    }
 
-  
    async getNameArticle() {
       try {
          const nameProduct = await this.name.getText();

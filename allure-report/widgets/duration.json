@@ -1,90 +1,130 @@
 [ {
-  "uid" : "dd8eba3262dcd167",
-  "name" : "should login with valid credentials",
+  "uid" : "e70426b9450b205",
+  "name" : "Restrictions of the login inputs, emial",
   "time" : {
-    "start" : 1639739833640,
-    "stop" : 1639739838689,
-    "duration" : 5049
+    "start" : 1639743542808,
+    "stop" : 1639743549242,
+    "duration" : 6434
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "1ec97dce8e1be6aa",
-  "name" : "should login with invalid credentials, passw",
-  "time" : {
-    "start" : 1639739810263,
-    "stop" : 1639739819133,
-    "duration" : 8870
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "fc08dd48ee4c17a",
+  "uid" : "b21ff5fdf5ca5394",
   "name" : "should logout and verify logout",
   "time" : {
-    "start" : 1639739838689,
-    "stop" : 1639739878991,
-    "duration" : 40302
+    "start" : 1639742064302,
+    "stop" : 1639742106509,
+    "duration" : 42207
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "19e83d3ff236eec2",
-  "name" : "Restrictions of the login inputs, passw < 5",
-  "time" : {
-    "start" : 1639739824860,
-    "stop" : 1639739827777,
-    "duration" : 2917
-  },
-  "status" : "passed",
-  "severity" : "critical"
-}, {
-  "uid" : "44966d692cde3969",
+  "uid" : "c75a5155793e5cd2",
   "name" : "Restrictions of the login inputs, passw empty",
   "time" : {
-    "start" : 1639739827778,
-    "stop" : 1639739830543,
-    "duration" : 2765
+    "start" : 1639743555651,
+    "stop" : 1639743560472,
+    "duration" : 4821
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "5b8045fd2da24ee7",
-  "name" : "should login with invalid credentials, user email",
+  "uid" : "263c14b3a6cf7317",
+  "name" : "should login with invalid credentials, passw",
   "time" : {
-    "start" : 1639739819133,
-    "stop" : 1639739822103,
-    "duration" : 2970
+    "start" : 1639743524633,
+    "stop" : 1639743535792,
+    "duration" : 11159
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "7cb6797186326c1b",
+  "uid" : "51b618e011c27e9a",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1639743566148,
+    "stop" : 1639743576267,
+    "duration" : 10119
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ecc75e1c1213047b",
   "name" : "Comparación de imágenes del header-container",
   "time" : {
-    "start" : 1639739810264,
-    "stop" : 1639739816087,
-    "duration" : 5823
+    "start" : 1639743523977,
+    "stop" : 1639743531978,
+    "duration" : 8001
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8be9e5fdbdd603fa",
-  "name" : "Restrictions of the login inputs, email empty",
+  "uid" : "5771f918059e154d",
+  "name" : "Restrictions of the login inputs, passw < 5",
   "time" : {
-    "start" : 1639739830543,
-    "stop" : 1639739833640,
-    "duration" : 3097
+    "start" : 1639743549243,
+    "stop" : 1639743555651,
+    "duration" : 6408
   },
   "status" : "passed",
   "severity" : "critical"
 }, {
-  "uid" : "a41be04fcec4f07d",
-  "name" : "Restrictions of the login inputs, emial",
+  "uid" : "3ec22fff99a34541",
+  "name" : "should login with valid credentials",
   "time" : {
-    "start" : 1639739822103,
-    "stop" : 1639739824860,
-    "duration" : 2757
+    "start" : 1639742058063,
+    "stop" : 1639742064301,
+    "duration" : 6238
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "ccd289ffa31bd43a",
+  "name" : "should login with invalid credentials, user email",
+  "time" : {
+    "start" : 1639743535793,
+    "stop" : 1639743542808,
+    "duration" : 7015
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "5fa3ce6950eb104d",
+  "name" : "Restrictions of the login inputs, email empty",
+  "time" : {
+    "start" : 1639743560472,
+    "stop" : 1639743566089,
+    "duration" : 5617
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "1f8ff2609b6ba6c0",
+  "name" : "Debería buscar Blouse",
+  "time" : {
+    "start" : 1639743523879,
+    "stop" : 1639743533842,
+    "duration" : 9963
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "7c4f729bc1d42be1",
+  "name" : "Debería buscar Shirt",
+  "time" : {
+    "start" : 1639743533843,
+    "stop" : 1639743538188,
+    "duration" : 4345
+  },
+  "status" : "passed",
+  "severity" : "critical"
+}, {
+  "uid" : "b788843d306cc618",
+  "name" : "Debería buscar Dress",
+  "time" : {
+    "start" : 1639743538188,
+    "stop" : 1639743543361,
+    "duration" : 5173
   },
   "status" : "passed",
   "severity" : "critical"
