@@ -4,7 +4,7 @@ import allureReporter from '@wdio/allure-reporter'
 
 
 describe('My images of my application', () => {
-it('Comparación de imágenes del header-container', async () => {
+it('Header-container image comparison', async () => {
     allureReporter.addFeature('Visual Regresion Header container')
     allureReporter.addSeverity('Medium')
     await HomeSearchPage.open('/');
@@ -13,7 +13,7 @@ it('Comparación de imágenes del header-container', async () => {
        await browser.checkElement(await $(".nav>.container"), "header-container", {
            /* opciones de configuración para el elemento */
        }),
-       "Error: la barra de navegación de WebdriverIO no coincide con la original"
+       "Error: the application's navigation bar does not match the origina"
    ).equal(0);
 
    });

@@ -2,7 +2,7 @@ import BasePage from "./base.page";
 
 class LoginPage extends BasePage {
 
-    //selectores
+    //selector
     get inputUsername() {return '#email';}
     get inputPassword() {return '#passwd';}
     get inputEmail() {return '#email_create';}
@@ -14,7 +14,7 @@ class LoginPage extends BasePage {
     get logOut() {return '.logout';}
     get account() {return $('.account');} 
 
-    // metodos
+    // methods
     async login(username, password) {
         try {
         const userField = await browser.$(this.inputUsername);

@@ -7,7 +7,7 @@ import { expect as chaiExpect} from "chai";
 
 describe('Opencart_search articules', () => {
     DATOS.forEach(({ articulo }) => {
-        it(`Debería buscar ${articulo}`, async () => {
+        it(`Should search ${articulo}`, async () => {
             allureReporter.addFeature('Customer Search Management')
             allureReporter.addSeverity('critical')
             await HomeSearchPage.open('/');

@@ -126,7 +126,7 @@ exports.config = {
             // más opciones...
           },
         ],
-        'chromedriver',
+        'chromedriver'
       ],
     
     // Framework you want to run your specs with.

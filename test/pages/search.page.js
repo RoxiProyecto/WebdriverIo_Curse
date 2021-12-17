@@ -2,7 +2,7 @@ import BasePage from './base.page';
 
 class SearchPage extends BasePage {
 
-   //selectores
+   //selector
 
    get articles() {
       return '.ajax_block_product>.product-container';
@@ -11,7 +11,7 @@ class SearchPage extends BasePage {
       return $('.right-block>h5>.product-name');
    }
 
-  // metodos
+  // methods
    async clickArticle() {
 
       try {

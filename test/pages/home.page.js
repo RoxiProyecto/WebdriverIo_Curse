@@ -2,7 +2,7 @@ import BasePage from "./base.page";
 
 class HomeSearchPage extends BasePage {
 
-    //selectores 
+    //selector 
     get searchFieldSel() {return 'input[placeholder=Search]'; }
     get articlesContainer() {return '.product-image-container';}
     articles(articulo) {return $(`=${articulo}`);} 
@@ -10,7 +10,7 @@ class HomeSearchPage extends BasePage {
     tabSelector(name) { return $(`.sf-with-ul=${name.toUpperCase()}`);}
    
 
-    
+    //methods
     async searchArticles(articles) {
         
         const searchField = await browser.$(this.searchFieldSel);
