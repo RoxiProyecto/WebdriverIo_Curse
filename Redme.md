@@ -1,6 +1,6 @@
 # Automation_WebdriverIo_Mocha
 Se Automatiza  casos del sitio ecomerce: Your Logo
-url: http://automationpractice.com/
+url: http://automationpractice.com
 ### Pre-requisitos 📋
 Conocimiento sobre:
 Nodejs
