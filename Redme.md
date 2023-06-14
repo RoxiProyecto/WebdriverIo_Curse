@@ -1,5 +1,5 @@
 # Automation_WebdriverIo_Mocha
-Se Automatiza  casos del sitio ecomerce: Your Logo
+Se Automatiza casos del sitio ecomerce: Your Logo
 url: http://automationpractice.com/
 ### Pre-requisitos 📋
 Conocimiento sobre:
