@@ -26,7 +26,3 @@
 ### Description
 
 <!--- Describe your changes in detail. -->
-
-### After Submitting Checklist:
-
-[ ] I have rebased after the Pull Request was approved.
